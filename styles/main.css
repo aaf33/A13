@@ -1,5 +1,15 @@
 /* the styles for the elements */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 
+}
+
+
+html {
+	background-color: white;
+}
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -14,44 +24,21 @@ body {
 	background-color: #fffded;
 }
 
-section {
-	width: 525px;
-	float: right;
-
-}
-
-aside {
-	padding-left:20px;
-	padding-right:20px;
-	padding-bottom:20px;
-}
-
-aside h3 {
-	font-size:105%;
-	padding-bottom: 25px;
-}
-
-aside img {
-	bottom-padding:1em;
-}
-
-
-
-/* ----STEP- 4 ---- */
-html {
-	background-color: white;
-}
-
-/* ----STEP- 5 ---- */
+/* ----STEP- 9 ---- */
 header {
-	border-bottom: 3px solid #931420;
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+
 }
 
-/* ----STEP- 6 ---- */
-main h1 {
-	border-top: 3px solid #931420;
-	border-bottom: 3px solid #931420;
+header h2,
+header h3 {
+	text-indent: 0;
+	padding-right: 30px;
+	padding-left: 30px;
 }
+
+/* MENU CODE BEGINS HERE */
 
 #nav_menu ul {
 	list-style-type: none;
@@ -99,50 +86,30 @@ main h1 {
 	clear:both;
 }
 
-/* ----STEP- 7 ---- */
-footer {
-	background-color: #931420;
-	color: white;
-}
-
-/* ----STEP- 8 ---- */
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-
-}
-
-/* ----STEP- 9 ---- */
-header {
-	padding-top: 1.5em;
-	padding-bottom: 2em;
-
-}
-
-header h2,
-header h3 {
-	text-indent: 0;
-	padding-right: 30px;
-	padding-left: 30px;
-}
-
-/* ----STEP- 10 ---- */
+/* MENU CODE ENDS HERE */
 main {
 
 }
 
+main h1 {
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+}
 main h2 {
-	padding-top: .5em;
+
+	padding-top: 0;
 	padding-bottom: .25em;
 }
 
 main h3 {
+	font-size:105%;
 	padding-bottom: .25em;
 }
 
 main img {
 	padding-bottom: 1em;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 main p {
@@ -154,35 +121,47 @@ main blockquote {
 	padding-left: 2em;
 }
 
-main section ul {
-	padding-bottom: .25em;
-	padding-left: 1.25em;
+section {
+	width: 525px;
+	float: right;
+
 }
 
-main section li {
-	padding-bottom: .35em;
+aside {
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
 }
 
-/* ----STEP- 12 ---- */
-footer p {
-	padding-top: 1em;
-	padding-bottom: 1em;
-	clear: both;
+article {
+	border: none;
 }
 
-/* ----STEP- 14 ---- */
+aside h3 {
+	font-size:105%;
+	padding-bottom: 25px;
+}
+
+aside img {
+	bottom-padding:1em;
+}
+
+article img {
+	float:right;
+	margin: 10px;
+	border:10px black;
+}
+
 blockquote {
 	font-style: italic;
 }
 
-/* ----STEP- 15 ---- */
-header {
-	background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 50%, white 80%, #f6bb73 100%);
 
-}
-
-/* ----STEP- 16 ---- */
-main img {
-	margin-top: 5px;
-	margin-bottom: 5px;
+footer p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	clear: both;
+	background-color: #931420;
+	height: fit-content;
+	color: white;
 }
