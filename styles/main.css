@@ -1,0 +1,155 @@
+/* the styles for the elements */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	/* text/font - size */
+	font-size: 100%;
+	/* ----STEP- 2 ---- */
+	width: 800px;
+	/* margin: auto centers the page */
+	margin: 0 auto;
+	border: 3px solid #931420;
+	/* ----STEP- 3 ---- */
+	background-color: #fffded;
+}
+
+ul {
+	list-style-type: none;
+}
+
+ul li {
+
+}
+
+a {
+	float: left;
+	display:block;
+	width: 150px;
+	align-content: center;
+}
+
+section {
+	width: 525px;
+	float: right;
+
+}
+
+aside {
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:20px;
+}
+
+aside h3 {
+	font-size:105%;
+	padding-bottom: 25px;
+}
+
+aside img {
+	bottom-padding:1em;
+}
+
+
+
+/* ----STEP- 4 ---- */
+html {
+	background-color: white;
+}
+
+/* ----STEP- 5 ---- */
+header {
+	border-bottom: 3px solid #931420;
+}
+
+/* ----STEP- 6 ---- */
+main h1 {
+	border-top: 3px solid #931420;
+	border-bottom: 3px solid #931420;
+}
+
+/* ----STEP- 7 ---- */
+footer {
+	background-color: #931420;
+	color: white;
+}
+
+/* ----STEP- 8 ---- */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+
+}
+
+/* ----STEP- 9 ---- */
+header {
+	padding-top: 1.5em;
+	padding-bottom: 2em;
+
+}
+
+header h2,
+header h3 {
+	text-indent: 0;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* ----STEP- 10 ---- */
+main {
+
+}
+
+main h2 {
+	padding-top: .5em;
+	padding-bottom: .25em;
+}
+
+main h3 {
+	padding-bottom: .25em;
+}
+
+main img {
+	padding-bottom: 1em;
+}
+
+main p {
+	padding-bottom: .5em;
+}
+
+main blockquote {
+	padding-right: 2em;
+	padding-left: 2em;
+}
+
+main section ul {
+	padding-bottom: .25em;
+	padding-left: 1.25em;
+}
+
+main section li {
+	padding-bottom: .35em;
+}
+
+/* ----STEP- 12 ---- */
+footer p {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	clear: both;
+}
+
+/* ----STEP- 14 ---- */
+blockquote {
+	font-style: italic;
+}
+
+/* ----STEP- 15 ---- */
+header {
+	background: linear-gradient(30deg, #f6bb73 0%, white 30%, white 50%, white 80%, #f6bb73 100%);
+
+}
+
+/* ----STEP- 16 ---- */
+main img {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
